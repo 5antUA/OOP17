@@ -51,11 +51,6 @@ public class Square : Root
             X = Math.Max(root1, root2);
         }
     }
-
-    public override string Print()
-    {
-        return base.Print();
-    }
 }
 
 
@@ -81,10 +76,5 @@ public class Linear : Root
     protected override void FindRoot()
     {
         X = (double)-b / k;
-    }
-
-    public override string Print()
-    {
-        return base.Print();
     }
 }
