@@ -26,7 +26,7 @@ namespace OOP_17
                 int C = Convert.ToInt32(squareC.Text);
 
                 var result = new Square(A, B, C);
-                squareLabel.Text = result.Print();
+                squareLabel.Text = result.ToString();
             }
             catch (FormatException) // виклик при невірному форматі в TextBox
             {
@@ -50,7 +50,7 @@ namespace OOP_17
                 int B = Convert.ToInt32(linearA.Text);
 
                 var result = new Linear(K, B);
-                linearLabel.Text = result.Print();
+                linearLabel.Text = result.ToString();
             }
             catch (FormatException) // виклик при невірному форматі в TextBox
             {

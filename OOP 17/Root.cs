@@ -11,7 +11,7 @@ public abstract class Root
     protected double X;
 
     protected virtual void FindRoot() { }
-    public virtual string Print() { return $"X = {X}"; }
+    public override string ToString() { return $"X = {X}"; }
 }
 
 
